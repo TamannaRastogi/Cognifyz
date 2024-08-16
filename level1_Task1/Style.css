@@ -1,0 +1,103 @@
+/* Style.css */
+
+/* Universal styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("image6.jpg"); /* Update with your image path */
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background image so it doesn't scroll */
+}
+
+/* Header styling */
+header {
+    background-color: rgba(114, 217, 235, 0.8); /* Light blue background with transparency */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav {
+    background-color: rgba(51, 51, 51, 0.8); /* Dark background with transparency */
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Hover effect */
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
+    max-width: 200px; /* Responsive image */
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Form container styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the form */
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6ce2dc;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #68b8d8; /* Button hover effect */
+}
+
